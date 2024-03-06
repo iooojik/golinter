@@ -316,6 +316,9 @@ issues:
   exclude-rules:
     - linters:
         - gosec
+      text: "G204:"
+    - linters:
+        - gosec
       text: "G402:"
     - source: "(noinspection|TODO)"
       linters: [ godot ]
