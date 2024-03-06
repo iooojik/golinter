@@ -333,6 +333,7 @@ issues:
         - gosec
         - noctx
         - wrapcheck
+        - lll
     # TODO: remove after PR is released https://github.com/golangci/golangci-lint/pull/4386
     - text: "fmt.Sprintf can be replaced with string addition"
       linters: [ perfsprint ]
